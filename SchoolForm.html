@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SIT Nagpur Event Registration</title>
+  <style>
+    body {
+      background-image: url('SIT1.jpeg'); /* Replace with your image file */
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+
+    .form-container {
+      background: rgba(0, 0, 0, 0.7);
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ffcc00;
+
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>SIT Nagpur Event Registration</h2>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+       
+      <lable for="age">Enter Your DOB:</lable>
+      <input type="date" id="age" name="DOB" required><br><br>
+      <label> Email Address:
+      <input type="email" name="email" required>
+      </label><br><br>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="branch">Branch:</label>
+      <select id="branch" name="branch" required>
+        <option value="">--Select--</option>
+        <option value="CSE">Computer Science</option>
+      </select><br><br>
+
+      <label for="event">Select Event:</label>
+      <select id="event" name="event" required>
+        <option value="">--Select--</option>
+        <option value="coding">Coding Competition</option>
+        <option value="hardware">Robotics/Hardware/IoT/Drones</option>
+        <option value="quiz">Tech Quiz</option>
+        <option value="sports">Sports Meet</option>
+        <option value="trip">Field Trip</option>
+      </select><br><br>
+
+      <label>Feedback/Query:
+      <textarea name="comments" rows="4"></textarea>
+      </label><br><br>
+
+      <button type="submit">Register</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+
+</body>
+</html>
